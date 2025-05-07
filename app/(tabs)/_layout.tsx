@@ -42,17 +42,17 @@ const _layout = () => {
             }}
         >
             <Tabs.Screen name="index" options={{
-                title: 'Home', tabBarIcon: ({ focused }) => (
+                title: 'Home',headerShown: false, tabBarIcon: ({ focused }) => (
                     <TabIcon focused={focused} icon={icons.home} title={'Home'} />
                 )
             }} />
             <Tabs.Screen name="search" options={{
-                title: 'Search', tabBarIcon: ({ focused }) => (
+                title: 'Search',headerShown: false, tabBarIcon: ({ focused }) => (
                     <TabIcon focused={focused} icon={icons.search} title={'Search'} />
                 )
             }} />
             <Tabs.Screen name="saved" options={{
-                title: 'Saved', tabBarIcon: ({ focused }) => (
+                title: 'Saved', headerShown: false, tabBarIcon: ({ focused }) => (
                     <TabIcon focused={focused} icon={icons.save} title={'Saved'} />
                 )
             }} />
